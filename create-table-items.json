@@ -9,16 +9,17 @@
             "AttributeType": "S"
         }
     ],
-    "TableName": "Items",
+    "TableName": "Items2",
     "KeySchema": [
-        {
-            "AttributeName": "Id",
-            "KeyType": "HASH"
-        },
 		{
             "AttributeName": "Name",
             "KeyType": "HASH"
         },
+        {
+            "AttributeName": "Id",
+            "KeyType": "RANGE"
+        }
+		
     ],
     "ProvisionedThroughput": {
         "ReadCapacityUnits": 5,
