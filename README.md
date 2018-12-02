@@ -5,3 +5,4 @@ these scripts are from initial dynamodb work.
 --- put data into table created above
 --- retrieve data from from this table
 --- user filter expression to filter out data
+-- delete items
